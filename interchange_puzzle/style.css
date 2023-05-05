@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    background-color: bisque;
+}
+
+#board {
+    width: 360px;
+    height: 360px;
+    background-color: antiquewhite;
+    border: 3px solid black;
+
+    margin-top: 400px;
+    margin-left: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img {
+    width: 117px;
+    height: 117px;
+    border: 1px solid #0c67ae;
+}

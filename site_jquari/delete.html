@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Highlight Selected Word</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    .highlight {
+      background-color: yellow;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+<p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis rhoncus feugiat. Suspendisse potenti. Maecenas vel fermentum nulla. Sed lacinia ante auctor velit pretium vulputate. Fusce ac risus at quam ornare elementum. Duis eu semper velit. Proin sagittis elit id elit mollis congue. Vivamus quis purus ullamcorper, pretium odio id, venenatis sapien. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+</p>
+<script>
+  var prevSelection = null;
+
+  $(document).on('dblclick', function(e) {
+    var selectedText = window.getSelection().toString().trim();
+    if (selectedText !== '') {
+      // Remove previous highlights
+      if (prevSelection !== null) {
+        prevSelection.removeClass('highlight');
+      }
+      // Highlight new selection
+      var selectedElements = $('*:contains(' + selectedText + ')');
+      selectedElements.addClass('highlight');
+      // Save new selection
+      prevSelection = selectedElements;
+    }
+  });
+</script>
+</body>
+</html>

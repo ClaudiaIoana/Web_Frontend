@@ -1,0 +1,27 @@
+.aspect {
+    margin-left: 120px;
+    margin-top: 140px;
+    margin-right: 150px;
+    font-size: 30px;
+}
+
+.base {
+    background-color: antiquewhite;
+}
+
+.imgaspect {
+    margin-right: 100px;
+}
+
+.aspect2{
+    margin-left: 700px;
+    margin-top: 70px;
+}
+
+.highlight {
+    background-color: peru;
+}
+
+.highlight2{
+    background-color: white;
+}

@@ -1,0 +1,108 @@
+img {
+    border-radius: 2%;
+}
+
+.header {
+    padding: 10px;
+    #text-align: center;
+    background: white;
+    color: black;
+    font-size: 18px;
+}
+
+.base {
+    background: whitesmoke;
+}
+
+.font1 {
+    text-align: center;
+    margin-left: 2em;
+    font-family: "Calibri", Times, serif;
+    color: gray;
+}
+
+.font2 {
+    font-family: "Calibri", Times, serif;
+    font-weight: bold;
+    color: darkred;
+}
+
+.font3 {
+    font-family: "Calibri", Times, serif;
+    color: black;
+}
+
+.font5 {
+    font-family: "Calibri", Times, serif;
+    color: cornflowerblue;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.font4 {
+    font-family: "Calibri", Times, serif;
+    color: cornflowerblue;
+}
+
+.centered {
+    text-align: center;
+}
+
+.lefted {
+    text-align: left;
+}
+
+.righted {
+    text-align: right;
+}
+
+.article_section {
+    border-radius: 2%;
+    padding: 25px;
+    background: white;
+    color: black;
+    margin-left: 400px;
+    #margin-right: 850px;
+}
+
+.section {
+    border-radius: 2%;
+    padding: 25px;
+    background: white;
+    color: black;
+    margin-left: 40px;
+}
+
+.img2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    border-radius: 10%;
+}
+
+.img3 {
+    border-radius: 5%;
+}
+
+.flex {
+    display: flex;
+}
+
+.trending {
+    margin-left: 40px;
+}
+
+.line {
+    border-top: 1px solid;
+    color: lightgray;
+    width: 100%;
+}
+
+.spacing {
+    margin-top: 70px;
+    margin-left: 400px;
+}
+
+.spacing_bottom {
+    margin-bottom: 30px;
+}
